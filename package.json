@@ -1,19 +1,21 @@
 {
-  "name": "codesandbox-nuxt",
+  "name": "bikecast",
   "version": "1.0.0",
-  "description": "Nuxt starter for CodeSandBox",
-  "author": "Nuxt.js Team",
+  "description": "",
+  "author": "Justin Deal",
   "private": true,
   "scripts": {
     "dev": "MINIMAL=1 CSB=1 nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
     "@nuxt/http": "^0.3.0",
     "nuxt": "^2.5.1",
     "reqlim": "^0.0.0"
-  }
+  },
+  "keywords": []
 }

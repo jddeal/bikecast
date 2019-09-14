@@ -1,10 +1,12 @@
-# codesandbox-nuxt
+# Bikecast
 
-> Nuxt starter for CodeSandBox (used for https://template.nuxtjs.org)
+Get a forecast for your bike route.
+
+Powered by routes generated from [Ride with GPS](https://ridewithgps.com) and forecast data from [AerisWeather](https://www.aerisweather.com/).
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 $ yarn install
 
@@ -18,5 +20,3 @@ $ yarn start
 # generate static project
 $ yarn run generate
 ```
-
-For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
